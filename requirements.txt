@@ -1,12 +1,25 @@
-fastapi
-catboost
-uvicorn
 
-pydantic>=2.5.0
+# Web Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+
+# Data Processing
 numpy>=1.24.0
 pandas>=2.0.0
-lightgbm>=4.1.0
-xgboost>=2.0.0
+pydantic>=2.5.0
+
+# ML/AI Models
 tensorflow>=2.15.0
 scikit-learn>=1.3.0
-python-multipart>=0.0.6
+lightgbm>=4.1.0
+xgboost>=2.0.0
+catboost>=1.2.0
+
+# Optional: Data fetching (if needed)
+# requests>=2.31.0
+# python-binance>=1.0.0
+
+# Optional: Database (if needed)
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0  # PostgreSQL

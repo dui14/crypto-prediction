@@ -4,27 +4,27 @@ Dashboard dự đoán giá tiền điện tử sử dụng 5 mô hình Machine L
 
 ## Features
 
-### 📊 Dữ liệu & Lấy dữ liệu
+### Dữ liệu & Lấy dữ liệu
 - **Real-time Data**: Lấy giá crypto live từ Binance API
 - **Flexible Intervals**: Hỗ trợ 5-phút hoặc 15-phút timeframe
 - **Historical Data**: Lấy dữ liệu lịch sử từ Binance (theo ngày/3 ngày)
 - **WebSocket Support**: Cập nhật giá real-time tối ưu
 
-### 🤖 Machine Learning Models
+### Machine Learning Models
 - **LightGBM**: 60 features (gradient boosting)
 - **XGBoost**: 220 features (extreme gradient boosting)
 - **CatBoost**: 220 features (categorical boosting)
 - **LSTM**: 33 returns-based features (deep learning)
 - **GRU**: 33 returns-based features (deep learning)
 
-### 📈 Dự đoán & Trực quan hóa
+### Dự đoán & Trực quan hóa
 - **Interactive Charts**: Đường giá thực (xanh) vs dự đoán (đỏ)
 - **Multi-step Prediction**: Dự đoán 5m, 15m, 1h, 4h, 1d, 3d
 - **Performance Metrics**: MAE, RMSE, direction accuracy
 - **Trend Detection**: Phát hiện xu hướng Up/Down/Neutral
 - **Batch Predictions**: Dự đoán lô cho dữ liệu lịch sử
 
-### 🎨 Giao diện
+### Giao diện
 - **Responsive Design**: UI hiện đại với Tailwind CSS
 - **Language Support**: Hỗ trợ Tiếng Việt & English
 - **Real-time Status**: Chỉ báo kết nối API
