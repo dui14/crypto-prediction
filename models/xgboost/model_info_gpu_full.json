@@ -1,0 +1,51 @@
+{
+  "trained_at": "2025-11-26T11:25:27.863051",
+  "algorithm": "XGBoost",
+  "version": "GPU Full Training (No Early Stopping)",
+  "data_file": "BTCUSDT_5m_2020_to_now_618k_rows.csv",
+  "total_samples": 618298,
+  "train_samples": 494638,
+  "test_samples": 123660,
+  "n_features": 220,
+  "num_boost_round": 2000,
+  "early_stopping": false,
+  "gpu_training": true,
+  "train_metrics": {
+    "rmse": 63.259995785400825,
+    "mae": 44.41144871747194,
+    "mape": 0.15462476226503924,
+    "r2": 0.9999878090864561
+  },
+  "test_metrics": {
+    "rmse": 30662.054613138585,
+    "mae": 26999.519776435893,
+    "mape": 25.665274845338924,
+    "r2": -2.6664603315125537
+  },
+  "model_params": {
+    "objective": "reg:squarederror",
+    "eval_metric": "rmse",
+    "tree_method": "gpu_hist",
+    "gpu_id": 0,
+    "max_depth": 8,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "colsample_bylevel": 0.8,
+    "colsample_bynode": 0.8,
+    "min_child_weight": 3,
+    "gamma": 0.1,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "max_bin": 256,
+    "verbosity": 1,
+    "n_jobs": -1
+  },
+  "feature_categories": {
+    "price_features": 73,
+    "volume_features": 21,
+    "technical_indicators": 78,
+    "lag_features": 54,
+    "time_features": 17
+  }
+}

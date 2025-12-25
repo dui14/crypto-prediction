@@ -1,0 +1,28 @@
+{
+  "cat_features": [
+    "hour",
+    "day_of_week",
+    "day_of_month",
+    "week_of_year",
+    "month",
+    "quarter",
+    "is_weekend",
+    "is_month_start",
+    "is_month_end",
+    "is_quarter_start",
+    "is_quarter_end"
+  ],
+  "cat_features_idx": [
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213
+  ]
+}

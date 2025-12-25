@@ -1,0 +1,29 @@
+{
+  "trained_at": "2025-11-26T15:27:48.321357",
+  "algorithm": "GRU",
+  "version": "GPU RAM-Optimized",
+  "framework": "TensorFlow/Keras",
+  "tensorflow_version": "2.15.0",
+  "data_file": "BTCUSDT_5m_2020_to_now_618k_rows.csv",
+  "total_samples": 618567,
+  "train_samples": 445114,
+  "test_samples": 123600,
+  "n_features": 221,
+  "lookback": 60,
+  "batch_size": 64,
+  "early_stopping": true,
+  "gpu_training": true,
+  "ram_optimized": true,
+  "train_metrics": {
+    "rmse": 49699.716538427056,
+    "mae": 49699.3515625,
+    "mape": 648.0839252471924,
+    "r2": -16129.072265625
+  },
+  "test_metrics": {
+    "rmse": 34339.34186905742,
+    "mae": 31006.470703125,
+    "mape": 29.864272475242615,
+    "r2": -3.5967888832092285
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "trained_at": "2025-11-26T10:19:38.854128",
+  "data_file": "BTCUSDT_5m_2020_to_now_618k_rows.csv",
+  "total_samples": 618486,
+  "train_samples": 494788,
+  "test_samples": 123698,
+  "n_features": 60,
+  "best_iteration": 0,
+  "train_metrics": {
+    "rmse": 90.79152385731582,
+    "mae": 61.51439421106637,
+    "r2": 0.9999748937916813
+  },
+  "test_metrics": {
+    "rmse": 30654.36677950465,
+    "mae": 26939.770122884333,
+    "r2": -2.6592490743888826
+  },
+  "model_params": {
+    "objective": "regression",
+    "metric": "rmse",
+    "boosting_type": "gbdt",
+    "num_leaves": 31,
+    "learning_rate": 0.05,
+    "feature_fraction": 0.9,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 5,
+    "max_depth": -1,
+    "min_data_in_leaf": 20,
+    "verbose": -1,
+    "device": "gpu"
+  }
+}
