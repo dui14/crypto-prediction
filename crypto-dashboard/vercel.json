@@ -4,9 +4,8 @@
   "installCommand": "npm ci",
   "framework": "create-react-app",
   "env": {
-    "REACT_APP_USE_PROXY": "@react_app_use_proxy",
-    "REACT_APP_BINANCE_API": "@react_app_binance_api",
-    "REACT_APP_BINANCE_WS": "@react_app_binance_ws",
-    "REACT_APP_PREDICTION_API_URL": "@react_app_prediction_api_url"
+    "REACT_APP_USE_PROXY": "false",
+    "REACT_APP_BINANCE_API": "https://api.binance.com/api/v3",
+    "REACT_APP_BINANCE_WS": "wss://stream.binance.com:9443/ws"
   }
 }
