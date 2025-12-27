@@ -1,6 +1,7 @@
-# Crypto Price Prediction Dashboard
+# Crypto Price Prediction
 
-Dashboard dự đoán giá tiền điện tử sử dụng 5 mô hình Machine Learning (LightGBM, XGBoost, CatBoost, LSTM, GRU) với giao diện React hiện đại.
+Giao diện dự đoán giá tiền điện tử sử dụng 5 mô hình Machine Learning (LightGBM, XGBoost, CatBoost, LSTM, GRU).
+Demo: (https://crypto-prediction-bydui14.vercel.app/)
 
 ## Features
 
